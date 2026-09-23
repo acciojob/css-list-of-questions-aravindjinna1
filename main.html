@@ -1,16 +1,49 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questions Display</title>
+    <style>
+        /* Styling for each question blockquote */
+        .questions {
+            background-color: #f8fffe;
+            height: 50px;
+            margin-top: 20px;
+            padding: 15px;
+            max-width: 600px;
+            border-left: 8px solid green;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            /* Ensure the paragraph content fits neatly inside the fixed height */
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+        }
+
+        /* Remove default paragraph margins so text sits cleanly */
+        .questions p {
+            margin: 0;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
 
+    <!-- Question 1 -->
+    <blockquote class="questions">
+        <p>Who was the first female to become the governor of an Indian state?</p>
+    </blockquote>
+
+    <!-- Question 2 -->
+    <blockquote class="questions">
+        <p>Who among first Woman to climb Mount Everest twice?</p>
+    </blockquote>
+
+    <!-- Question 3 -->
+    <blockquote class="questions">
+        <p>Who is President of India?</p>
+    </blockquote>
+
+   
 </body>
-
 </html>
